@@ -1,0 +1,22 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+
+    
+}
+.Navbar-right{
+    display: flex;
+    gap: 45px;
+    padding-right: 100px;
+}
+.Navbar-right h5:hover{
+    border-bottom: 3px solid yellow;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

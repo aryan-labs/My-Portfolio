@@ -1,0 +1,32 @@
+:root{
+    --box-shadow: 5px 5px 10px 10px rgba(101,175,10,0.5) ;
+    --bg-color:rgb(40,47,97)
+}
+
+
+.container-ex h1{
+    border-bottom: 3px solid yellow;
+    width:200px;
+    margin-left: 36%;
+}
+.ex-items img{ 
+    padding-top: 30px;
+    margin-left: 36%;
+}
+.right{
+    margin-left: 22%;
+}
+.dates{
+    gap: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.ex-items{
+box-shadow: var(--box-shadow);
+background-color: var(--bg-color);
+width: 1000px;
+margin-left: 50px;
+padding-left: 50px;
+display: flex;
+align-items: center;
+}

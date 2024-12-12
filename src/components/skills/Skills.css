@@ -1,0 +1,31 @@
+.skills{
+    width: 900px;
+}
+.skills .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+
+}
+.item img{
+    width: 70px;
+}
+.skills .items .item {
+    width: calc(33.33%);
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    padding:20px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    box-shadow: var(--box-shadow);
+}
+.skills h1{
+    border-bottom: 3px solid yellow;
+    width:100px;
+    margin-left: 45%;
+
+}

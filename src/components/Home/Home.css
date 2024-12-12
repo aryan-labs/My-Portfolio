@@ -1,0 +1,72 @@
+:root{
+    --box-shadow: 5px 5px 10px 10px rgba(101,175,10,0.5) ;
+    --bg-color:rgb(40,47,97)
+}
+
+.Home-left{
+    padding-left: 100px;
+    background-color: var(--bg-color);
+    width: 600px;
+    height:auto;
+    align-items: center;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    padding-top: 50px;
+    box-shadow: var(--box-shadow);
+    padding-bottom: 30px;
+    
+    }
+
+.btn {
+    margin-left: 100px;
+}
+
+.Home{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-around;
+}
+.right img{
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+border: 4px solid transparent;
+    animation-name: superman;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes superman {
+    0%{
+        border-color: blue;
+        transform: translate(0,0px);
+        box-shadow: 10px 10px 100px 50px blue;
+
+    }
+
+    25%{
+        border-color: rgb(239, 244, 11);
+      
+        box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+
+
+    }
+    50%{
+        border-color: rgb(12,12,199);
+        transform: translate(0,10px);
+        box-shadow: 10px 10px 100px 50px blue;
+
+    }
+    75%{
+        border-color: rgb(130,217,160);
+        box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+
+    }
+    100%{
+        border-color: rgb(50,55,205);
+        transform: translate(0,-0px);
+        box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+
+    }
+}

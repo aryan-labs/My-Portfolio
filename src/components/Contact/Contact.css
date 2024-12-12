@@ -1,0 +1,30 @@
+:root{
+    --box-shadow: 5px 5px 10px 10px rgba(101,175,10,0.5) ;
+    --bg-color:rgb(40,47,97)
+}
+
+
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon   .items{
+    background-color: black;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid yellow;
+}
+.items:hover{
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+
+.logo{
+    font-size: 2rem;
+}

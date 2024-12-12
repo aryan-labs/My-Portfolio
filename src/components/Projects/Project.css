@@ -1,0 +1,41 @@
+:root{
+    --box-shadow: 5px 5px 10px 10px rgba(101,175,10,0.5) ;
+    --bg-color:rgb(40,47,97)
+}
+
+
+.card{
+    width: 400px;
+    height: 450px;
+    
+}
+.card img{
+    align-self: center;
+    width: 350px;
+border-radius: 10px;
+height: 250px;
+border:1px solid yellow;
+box-shadow: var(--box-shadow);
+margin-top: 10px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid yellow;
+    box-shadow: var(--box-shadow);
+}
+
+.btn1{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.btn2{
+    background-color: yellow;
+    border: none;
+}
+.button{
+    display: flex;
+    gap: 20px;
+}
