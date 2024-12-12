@@ -6,6 +6,7 @@ import Skills from './components/skills/skills'
 import Project from './components/Projects/Project'
 import Contact from './components/Contact/Contact'
 import Aos from "aos"
+import "aos/dist/aos.css"; // Import AOS CSS
 import "aos/dist/aos.css"
 const App = () => {
   useEffect(()=>{

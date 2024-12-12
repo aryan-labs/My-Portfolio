@@ -24,12 +24,12 @@ const Home = () => {
     <div className='Home' id='home'>
         <div className="Home-left" data-aos="fade-up-right" data-aos-duration="1000">
             <h1 ref={typedRef}></h1>
-            <a href='' className='btn btn-outline-warning'>Download Resume</a>
+            <a href='/' className='btn btn-outline-warning'>Download Resume</a>
       
         </div>
         <div className="right" data-aos="fade-up-right" data-aos-duration="1000">
           
-                <img src={`/assets/${hero.imgSrc}`} alt=''/>
+               
             </div>
         
         
